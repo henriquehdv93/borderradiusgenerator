@@ -1,0 +1,38 @@
+{
+  "name": "border_radius_generator",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Henrique Vargas - www.henriquevargas.com.br",
+  "private": true,
+  "scripts": {
+    "dev": "NUXT_HOST=0.0.0.0 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.8.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/robots": "^2.4.2",
+    "@nuxtjs/sitemap": "^2.0.1",
+    "axios": "^0.21.1",
+    "nuxt": "^2.15.3",
+    "nuxt-validate": "^1.0.1",
+    "vee-validate": "^3.0.0",
+    "vue-the-mask": "^0.11.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/gtm": "^2.1.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "autoprefixer": "^7.2.3",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "popper.js": "1.16.0",
+    "postcss-hexrgba": "^2.0.0",
+    "postcss-responsive-type": "^1.0.0",
+    "precss": "^2.0.0",
+    "sass-loader": "^8.0.0"
+  }
+}
