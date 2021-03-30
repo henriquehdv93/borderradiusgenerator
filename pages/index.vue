@@ -5,8 +5,7 @@
       <SetValues />
       <section>
         <Preview />
-        <div class="appOutput">
-        </div>
+        <Output />
       </section>
     </main>
   </div>
@@ -15,11 +14,13 @@
 import Header from '../components/Header.vue'
 import Preview from '../components/Preview.vue'
 import SetValues from '../components/SetValues.vue'
+import Output from '../components/Output.vue'
 export default {
   components: {
     Header,
     SetValues,
     Preview,
+    Output,
   }
 }
 </script>
