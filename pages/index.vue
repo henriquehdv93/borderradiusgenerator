@@ -4,8 +4,7 @@
     <main class="appContainer">
       <SetValues />
       <section>
-        <div class="appPreview">
-        </div>
+        <Preview />
         <div class="appOutput">
         </div>
       </section>
@@ -13,12 +12,14 @@
   </div>
 </template>
 <script>
-import Header from '../components/Header'
-import SetValues from '../components/SetValues'
+import Header from '../components/Header.vue'
+import Preview from '../components/Preview.vue'
+import SetValues from '../components/SetValues.vue'
 export default {
   components: {
     Header,
     SetValues,
+    Preview,
   }
 }
 </script>

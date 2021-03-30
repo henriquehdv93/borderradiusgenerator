@@ -1,0 +1,18 @@
+.rangeGroup {
+  padding: 10px 0;
+  label {
+    display: block;
+    padding-bottom: 5px;
+  }
+  > div {
+    display: flex;
+    justify-content: space-between;
+    input[type="range"] {
+      width: 80%;
+    }
+    input[type="text"] {
+      width: 10%;
+      text-align: center;
+    }
+  }
+}
