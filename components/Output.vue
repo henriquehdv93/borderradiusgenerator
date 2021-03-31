@@ -8,7 +8,12 @@
 <script>
 export default {
   data: () => ({
-    outputCode: 'border-radius: 30%',
-  })
+    outputCode: 'bla'
+  }),
+  computed: {
+    // outputCode() {
+    //   return this.$store.getters['getAllCorners'];
+    // },
+  }
 }
 </script>
