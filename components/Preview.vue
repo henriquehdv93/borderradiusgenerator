@@ -11,13 +11,13 @@ export default {
   data: () => ({
   }),
   computed: {
-  ...mapState({
-    allCorners: state => state.allCorners,
-    topLeft: state => state.topLeft,
-    topRight: state => state.topRight,
-    bottomLeft: state => state.bottomLeft,
-    bottomRight: state => state.bottomRight,
-  })
-},
+    ...mapState({
+      allCorners: state => state.allCorners,
+      topLeft: state => state.topLeft,
+      topRight: state => state.topRight,
+      bottomLeft: state => state.bottomLeft,
+      bottomRight: state => state.bottomRight,
+    })
+  },
 }
 </script>

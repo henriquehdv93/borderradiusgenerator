@@ -1,19 +1,25 @@
 <template>
   <div class="appOutput">
-    <code v-html="outputCode">
+    <code>
+      {{ allCorners > 0 ? 'border-radius: ' + allCorners + 'px;' : '' }}
     </code>
     <button type="button" class="btnDefault">Copy to clipboard</button>
   </div>
 </template>
 <script>
+import { mapState } from 'vuex';
 export default {
   data: () => ({
-    outputCode: 'bla'
+    
   }),
   computed: {
-    // outputCode() {
-    //   return this.$store.getters['getAllCorners'];
-    // },
-  }
+    ...mapState({
+      allCorners: state => state.allCorners,
+      topLeft: state => state.topLeft,
+      topRight: state => state.topRight,
+      bottomLeft: state => state.bottomLeft,
+      bottomRight: state => state.bottomRight,
+    })
+  },
 }
 </script>
