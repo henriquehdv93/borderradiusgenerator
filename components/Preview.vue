@@ -17,6 +17,7 @@ export default {
       topRight: state => state.topRight,
       bottomLeft: state => state.bottomLeft,
       bottomRight: state => state.bottomRight,
+      isMultipleValue: state => state.isMultipleValue,
     })
   },
 }

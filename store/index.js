@@ -1,27 +1,11 @@
 export const state = () => ({
-    allCorners: 10,
+    allCorners: 0,
     topLeft: 0,
     topRight: 0,
     bottomLeft: 0,
     bottomRight: 0,
+    isMultipleValue: false,
 });
-export const getters = {
-  getAllCorners(state) {
-    return state.allCorners
-  },
-  getTopLeft(state) {
-    return state.topLeft
-  },
-  getTopRight(state) {
-    return state.topRight
-  },
-  getBottomLeft(state) {
-    return state.bottomLeft
-  },
-  getBottomRight(state) {
-    return state.bottomRight
-  }
-}
 export const mutations = {
   updateAllCorners (state, allCorners) {
     state.allCorners = allCorners
@@ -37,5 +21,8 @@ export const mutations = {
   },
   updateBottomRight (state, bottomRight) {
     state.bottomRight = bottomRight
+  },
+  updateIsMultipleValue (state, isMultipleValue) {
+    state.isMultipleValue = isMultipleValue
   }, 
 }
