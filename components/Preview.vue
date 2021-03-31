@@ -1,6 +1,6 @@
 <template>
   <div class="appPreview">
-    <div class="appPreview--box" :style="{ borderRadius: allCorners + 'px' }">
+    <div class="appPreview--box" :style="isMultipleValue == true ? { borderRadius: allCorners + 'px' } : { borderRadius: topLeft + 'px ' + topRight + 'px ' + bottomRight + 'px ' + bottomLeft + 'px'}">
       Preview
     </div>
   </div>
