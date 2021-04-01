@@ -4,8 +4,12 @@
   align-items: center;
   flex-direction: column;
   h1 {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     color: $color1;
+    text-align: center;
+    @media all and (min-width: 576px) {
+      font-size: 2.5rem;
+    }
   }
   p {
     color: $color2;
