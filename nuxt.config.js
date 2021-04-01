@@ -101,13 +101,8 @@ export default {
             // Install them before as dependencies with npm or yarn
             plugins: {
                 "postcss-import": {
-                    // path: ["../assets/css", "../components/@css", "../components"]
+                    
                 }
-                // Disable a plugin by passing false as value
-                // 'postcss-url': true,
-                // 'postcss-nested': {},
-                // 'postcss-responsive-type': {},
-                // 'postcss-hexrgba': {}
             },
             preset: {
                 // Change the postcss-preset-env settings
