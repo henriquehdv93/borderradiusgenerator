@@ -21,9 +21,8 @@ export default {
             {hid: 'twitter:description', property: 'twitter:description', content: 'Gerador de CSS3 Border-Radius, indicado para auxiliar desenvolvedores Front-End iniciantes'},
             {hid: 'og:type', property: 'og:type', content: 'website'},
             {hid: 'og:url', property: 'og:url', content: 'https://borderradiusgenerator.henriquevargas.com.br'},
-            {hid: 'og:image', property: 'og:image', content: 'website'},
-            {hid: 'twitter:image', property: 'twitter:image', content: 'http://borderradiusgenerator.henriquevargas.com.br/images/compartilhamento.png'},
-            {hid: 'og:type', property: 'og:type', content: 'http://borderradiusgenerator.henriquevargas.com.br/images/compartilhamento.png'},
+            {hid: 'og:image', property: 'og:image', content: 'http://borderradiusgenerator.henriquevargas.com.br/compartilhamento.png'},
+            {hid: 'twitter:image', property: 'twitter:image', content: 'http://borderradiusgenerator.henriquevargas.com.br/compartilhamento.png'},
         ],
         link: [
             {rel: 'canonical', href: 'https://borderradiusgenerator.henriquevargas.com.br'},
