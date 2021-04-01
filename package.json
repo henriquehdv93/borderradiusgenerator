@@ -1,11 +1,11 @@
 {
   "name": "border_radius_generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gerador de CSS3 Border-Radius, indicado para auxiliar desenvolvedores Front-End iniciantes",
   "author": "Henrique Vargas - www.henriquevargas.com.br",
   "private": true,
   "scripts": {
-    "dev": "NUXT_HOST=0.0.0.0 nuxt",
+    "dev": "NUXT_HOST=0.0.0.0 NUXT_ENV_URL=http://localhost:3000 NUXT_ENV_URL_BASE_API=https://api.henriquevargas.com.br/ nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
