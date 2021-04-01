@@ -21,6 +21,6 @@ export default {
     SetValues,
     Preview,
     Output,
-  }
+  },
 }
 </script>
