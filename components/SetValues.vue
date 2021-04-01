@@ -1,35 +1,36 @@
 <template>
   <section>
         <div class="rangeGroup">
-          <label for="allCorners">Todos os cantos</label>
+          <label for="allCorners">Todos os cantos:</label>
           <div>
             <input type="range" id="allCorners" name="allCorners" v-model="allCorners" @change="updateAllCorners" @mousedown="updateAllCorners">
             <input type="text" id="allCornersValue" name="allCornersValue" v-model="allCorners" @input="updateAllCorners">
           </div>
         </div>
+        <hr />
         <div class="rangeGroup">
-          <label for="topLeft">Canto superior esquerdo</label>
+          <label for="topLeft">Canto superior esquerdo:</label>
           <div>
             <input type="range" id="topLeft" name="topLeft" v-model="topLeft" @change="updateTopLeft" @mousedown="updateTopLeft">
             <input type="text" id="topLeftValue" name="topLeftValue" v-model="topLeft" @input="updateTopLeft">
           </div>
         </div>
         <div class="rangeGroup">
-          <label for="topRight">Canto superior direito</label>
+          <label for="topRight">Canto superior direito:</label>
           <div>
             <input type="range" id="topRight" name="topRight" v-model="topRight" @change="updateTopRight" @mousedown="updateTopRight">
             <input type="text" id="topRightValue" name="topRightValue" v-model="topRight" @input="updateTopRight">
           </div>
         </div>
         <div class="rangeGroup">
-          <label for="bottomRight">Canto inferior direito</label>
+          <label for="bottomRight">Canto inferior direito:</label>
           <div>
             <input type="range" id="bottomRight" name="bottomRight" v-model="bottomRight" @change="updateBottomRight" @mousedown="updateBottomRight">
             <input type="text" id="bottomRightValue" name="bottomRightValue" v-model="bottomRight" @change="updateBottomRight">
           </div>
         </div>
         <div class="rangeGroup">
-          <label for="bottomLeft">Canto inferior esquerdo</label>
+          <label for="bottomLeft">Canto inferior esquerdo:</label>
           <div>
             <input type="range" id="bottomLeft" name="bottomLeft" v-model="bottomLeft" @change="updateBottomLeft" @mousedown="updateBottomLeft">
             <input type="text" id="bottomLeftValue" name="bottomLeftValue" v-model="bottomLeft" @input="updateBottomLeft">
@@ -38,7 +39,6 @@
       </section>
 </template>
 <script>
-import { mapState } from 'vuex';
 export default { 
   computed: {
     allCorners: {
